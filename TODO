@@ -1,0 +1,20 @@
+I wanna create a project management web application using PHP, mySQL and OOP concepts like inheritance and polymorphysme,
+The Webflow is the folowing:
+    Index page -> Login or register
+    if registered -> Show dashboard corresponding the the role_global of the user (normal, admin)
+    for a normal user:
+        show all the projects where the user is member of.
+        this same user can be a project responsable or member.
+        Every user can create new projects and add members to it.
+        Every project member can read, add or modify the status or priority of any task of the project.
+            for the responsible:
+                the responsible has all the control over his project such as removing tasks or members and modifying projects informations.
+                a full report of the project is displayed for the responsible.
+    for an admin user:
+        Show all the projects.
+        can edit anything
+        can get a report of every project.
+    
+additionnal features:
+    search projects/tasks by keyword
+    notifications for each even such as (new tasks, task status modification ...)

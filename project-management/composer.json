@@ -1,0 +1,12 @@
+{
+    "name": "pc/project-management",
+    "description": "Project Management System",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
